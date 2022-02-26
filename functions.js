@@ -1,8 +1,8 @@
-const sayHello = ()=> console.log('hello wold');
+const sayHello = () =>  console.log("Hello World 2") ;
 
-const add = (a,b) => {return (a,b)}
+const add = (a,b) => { return (a+b) }
 
-module.export = {
+module.exports = {
     sayHello,
     add
 }
